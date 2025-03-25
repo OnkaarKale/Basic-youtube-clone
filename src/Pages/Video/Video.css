@@ -1,0 +1,18 @@
+.play-container {
+    background: #f9f9f9;
+    padding: 20px 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap; /* Ensures both sections stay in one row */
+    align-items: flex-start; /* Aligns items at the top */
+    gap: 20px; /* Adds space between Play Video and Recommended */
+}
+
+/* Ensure both components take up the correct space */
+.play-video {
+    flex-basis: 69%;
+}
+
+.recommendedd {
+    flex-basis: 30%;
+}
